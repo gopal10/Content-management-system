@@ -1,0 +1,63 @@
+ 
+.huge{
+    font-size: 40px;
+}
+.tag-boxes .panel-primary
+{
+    border: 1px solid black;
+}
+.tag-boxes .panel-red{
+    color: white;
+    background: #d9534f;
+    
+}
+.tag-boxes .panel-red a{
+    color: #d9534f;
+
+}
+.tag-boxes .panel-yellow a:hover{
+    color: darkgoldenrod;
+}
+.tag-boxes .panel-yellow{
+    color: white;
+    background: darkgoldenrod;
+    
+}
+body{
+    padding: 100px;
+    padding-bottom: 100px;
+}
+{
+    min-height: 100%;
+    position: relative;
+}
+.tag-boxes .panel-yellow a{
+    color: darkgoldenrod;
+
+}
+.tag-boxes .panel-yellow a:hover{
+    color: darkgoldenrod;
+
+    }
+.tag-boxes .panel-green{
+    color: white;
+    background: green ;
+    
+}
+.tag-boxes .panel-green a{
+    color: green;
+
+}
+.tag-boxes .panel-green a:hover{
+    color: green;
+}
+footer{
+    background-color:#2C3E50 ;
+    color: white;
+    line-height: 5opx;
+    height: 50px;
+   
+}
+a{
+    color: coral;
+}

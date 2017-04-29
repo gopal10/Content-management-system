@@ -1,0 +1,132 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #EEEDED;
+}
+.navbar-brand img{
+   margin-bottom: 5px;
+}
+.navbar-brand *{
+    color: white;
+}
+.jumbotron{
+    height: 200px;
+    overflow: hidden;
+}
+.jumbotron #detail{
+    position: absolute;
+    color: white;
+}
+.jumbotron img{
+    width: 100%;
+}
+.jumbotron #detail span {
+    color: coral;
+}
+.popular{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.popular img{
+    width: 100%;
+    margin-top: 12px;
+}
+section .widgets{
+    margin-bottom: 20px;
+}
+.popular .details{
+    margin: -20px;
+}
+.popular .details p{
+    font-family: arial;
+    font-size: 11px;
+}
+
+
+
+
+footer{
+    color: white;
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+a{
+    color: coral;
+}
+a hover{
+    color: coral;
+}
+
+.popular ul li{
+list-style: none;
+}
+.carousel-inner img{
+width: 100%;
+}
+.post{
+    background-color: white; 
+    border: 1px solid #E3E3E3;
+    margin: 15px; 0px;
+}
+.post .post-date
+{
+    padding: 20px;
+    text-align: center;
+    
+}
+.post .post-date .day{
+    font-size: 30px;
+    color: coral;
+        border-right: 1px solid #E3E3E3;
+
+}
+.post .post-title
+{
+    padding: 5px 20px;
+     border-left: 1px solid #E3E3E3;
+    
+}
+
+.post .post-title span{
+        border: 1px solid #E3E3E3;
+font-weight: 100;
+    margin-left: 10px;
+}
+
+.post .post-date .year
+{
+  
+    font-weight: 100;
+}
+.post .profile-picture img{
+    width:100px;
+}
+
+.post .profile-picture{
+    padding: 20px;
+}
+.post > img{
+    width: 100%;
+}
+.post .desc{
+    font-family: aria;
+    font-weight: 100;
+    padding: 15px;
+}
+nav#pagination{
+    text-align: center;
+}
+.contact-form{
+    background: white;
+    padding: 50px 25px;
+    
+}
+.contact-form h2{
+    color: coral;
+}
+.contact-form textarea{
+    resize: none;
+}

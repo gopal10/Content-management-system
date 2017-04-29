@@ -1,0 +1,232 @@
+
+.start
+{
+    background-color: coral;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 150px;
+    vertical-align: top;
+     color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+}
+#web{ 
+    text-decoration: none; 
+    font-family:sans-serif;
+    color: black;
+    display: block;
+}
+.topnav {
+  overflow: hidden;
+  background-color:black;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: forestgreen;
+    color: white;
+}
+
+.button {
+    background-color: snow;
+    border: none;
+    color: black;
+    padding: 10px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid ;
+    border-color: blueviolet;
+    text-decoration: none;
+    
+    
+}
+.button1 {
+    
+    background-color: snow;
+    border: none;
+    text-decoration: none;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid ;
+    border-color: blueviolet;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #EEEDED;
+}
+.navbar-brand img{
+   margin-bottom: 5px;
+}
+.navbar-brand *{
+    color: white;
+}
+.jumbotron{
+    height: 200px;
+    overflow: hidden;
+}
+.jumbotron #detail{
+    position: absolute;
+    color: coral;
+    font-family: cursive;
+
+}
+.jumbotron img
+{
+    width: 100%;
+}
+.jumbotron #detail span {
+    color: coral;
+}
+.popular{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.popular img{
+    width: 100%;
+    margin-top: 12px;
+}
+section .widgets{
+    margin-bottom: 20px;
+}
+.popular .details{
+    margin: -20px;
+}
+.popular .details p{
+    font-family: arial;
+    font-size: 11px;
+}
+
+
+
+
+footer{
+    color: white;
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+
+.popular ul li{
+list-style: none;
+}
+.carousel-inner img{
+width: 100%;
+}
+
+.bg-wrap{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 150px;
+    vertical-align: top;
+    color: white;
+}
+video{
+   position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+@import "lesshat";
+
+
+.true-center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 106px;
+  width: 690px;
+}
+
+.btn {
+    
+  position: relative;
+  border: 0 !important;
+  &:focus { outline: 0; }
+  &:hover { top: 2px; }
+  &:active { top: 6px; }
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold !important;
+align-content: center;
+  .border-radius(10);
+  .transition(all, 50ms, ease);
+  .btn(rgb(204, 204, 204), 20%);
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn-link {
+  text-shadow: none;
+  background: none !important;
+  .box-shadow(none);
+}
+  a :hover { 
+    border: 0;
+    background: none !important;
+    .box-shadow(none);
+    top: 0;
+  }
+  a:active { 
+    .box-shadow(none); 
+    top: 0;
+  }
+}
+
+.btn(@color, @percent: 10%)  {
+    border: 0;
+    text-shadow: 0px 1px 0px darken(@color, @percent);
+    background-color: @color;
+    .box-shadow(0px, 6px, 0px, darken(@color, @percent));
+    &:hover { 
+      border: 0;
+      background-color: lighten(@color, 5%) !important;
+      .box-shadow(0px, 4px, 0px, darken(@color, @percent));
+    }
+    &:active { 
+      .box-shadow(inset, 0px, 3px, 0px, darken(@color, @percent)); 
+    }
+}
