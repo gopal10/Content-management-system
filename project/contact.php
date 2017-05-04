@@ -46,13 +46,10 @@
                         </ul>
                     </li>
                     <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list-alt" aria-hidden="true"></i> Categories<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Category 1</a></li>
-                            <li><a href="#">Category 2</a></li>
-                        </ul>
+                       
                     </li>
-                    <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i>
- Admin-Panel</a></li>
+                    
+
                     
                     <li><a href="contact.html"><i class="fa fa-comments" aria-hidden="true"></i>
  Contact Us</a></li>
