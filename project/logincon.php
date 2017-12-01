@@ -20,7 +20,13 @@ $result = mysql_query("select * from register where username = '$username' and p
 
 $row = mysql_fetch_array($result);
 
-   if ($row['username'] == $username && $row['password'] == $password )
+if ($row['username'] == NULL && $row['password'] == NULL )
+     {
+         echo"<script>alert('You Login Was Successful. Welcome !!')</script>";
+         echo"<script>window.open('blog/index.php','_self')</script>";
+     }
+
+   else if ($row['username'] == $username && $row['password'] == $password )
      {
          echo"<script>alert('You Login Was Successful. Welcome !!')</script>";
          echo"<script>window.open('blog/index.php','_self')</script>";
